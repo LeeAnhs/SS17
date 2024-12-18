@@ -46,13 +46,12 @@ int main(void) {
     int menu;
     do {
         printf("\n");
-        printf("***********MENU**********\n");
-        printf("1.Nhập vào số phần tử và từng phần tử\n");
-        printf("2.Hiển thị các phần tử trong mảng\n");
-        printf("3.Tính độ dài mảng\n");
-        printf("4.Tính tổng các phần tử trong mảng\n");
-        printf("5.Hiển thị phần tử lớn nhất\n");
-        printf("6.Thoát\n");
+        printf("1.Nhap vao so phan tu va tung phan tu\n");
+        printf("2.Hien thi cac phan tu\n");
+        printf("3.Tinh do dai\n");
+        printf("4.Tinh tong cac phan tu trong mang\n");
+        printf("5.Hien thi phan tu lon nhat\n");
+        printf("6.Thoat\n");
         printf("Enter your number: ");
         scanf("%d", &menu);
         switch(menu) {
